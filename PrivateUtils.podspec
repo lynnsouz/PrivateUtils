@@ -22,7 +22,6 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/lynnsouz/PrivateUtils'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lynnsouz' => 'lnksouzacm@gmail.com' }
   s.source           = { :git => 'https://github.com/lynnsouz/PrivateUtils.git', :tag => s.version.to_s }
