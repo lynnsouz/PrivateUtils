@@ -1,19 +1,42 @@
+#
+# Be sure to run `pod lib lint PrivateUtils.podspec' to ensure this is a
+# valid spec before submitting.
+#
+# Any lines starting with a # are optional, but their use is encouraged
+# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
+#
+
 Pod::Spec.new do |s|
-  s.name             = "PrivateUtils"
-  s.version          = "1.0.0"
-  s.summary          = "The open source fonts for Artsy apps + UIFont categories."
-  s.homepage         = "https://github.com/lynnsouz/PrivateUtils"
-  s.license          = 'Code is MIT, then custom font licenses.'
-  s.author           = { "Lynneker Souza" => "LynnekerSouza@me.com" }
-  s.source           = { :git => "git@github.com:lynnsouz/PrivateUtils.git", :tag => s.version }
-  s.social_media_url = 'https://twitter.com/Lynsouz'
+  s.name             = 'PrivateUtils'
+  s.version          = '1.0.0'
+  s.summary          = 'A short description of PrivateUtils.'
 
-  s.platform     = :ios, '10.3'
-  s.requires_arc = true
+# This description is used to generate tags and improve search results.
+#   * Think: What does it do? Why did you write it? What is the focus?
+#   * Try to keep it short, snappy and to the point.
+#   * Write the description between the DESC delimiters below.
+#   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.source_files = 'Pod/Classes'
-  s.resources = 'Pod/Assets/*'
+  s.description      = <<-DESC
+TODO: Add long description of the pod here.
+                       DESC
 
-  s.frameworks = 'UIKit', 'CoreText'
-  s.module_name = 'PrivateUtils'
+  s.homepage         = 'https://github.com/lynnsouz/PrivateUtils'
+  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.author           = { 'lynnsouz' => 'lnksouzacm@gmail.com' }
+  s.source           = { :git => 'https://github.com/lynnsouz/PrivateUtils.git', :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+
+  s.ios.deployment_target = '9.0'
+
+  s.source_files = 'PrivateUtils/Classes/**/*'
+  
+  # s.resource_bundles = {
+  #   'PrivateUtils' => ['PrivateUtils/Assets/*.png']
+  # }
+
+  # s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.frameworks = 'UIKit', 'MapKit'
+  # s.dependency 'AFNetworking', '~> 2.3'
 end
