@@ -1,16 +1,24 @@
 PODS:
-  - PrivateUtils (0.1.0)
+  - Alamofire (4.9.1)
+  - PrivateUtils (1.0.0):
+    - Alamofire
 
 DEPENDENCIES:
+  - Alamofire
   - PrivateUtils (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
 
 EXTERNAL SOURCES:
   PrivateUtils:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PrivateUtils: c69d5e63edd22510e292f0c56f739595dfee90c0
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  PrivateUtils: 89c7839b81c7ac0ed4c02e713b9dd3d2feabb48a
 
-PODFILE CHECKSUM: ff9dc3034bde943521284bbbc7190debfbf41d17
+PODFILE CHECKSUM: 132b2d8c4a91b9749d643948521b9e70c27b08c1
 
 COCOAPODS: 1.10.1
