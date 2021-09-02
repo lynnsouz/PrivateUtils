@@ -1,6 +1,6 @@
 PODS:
   - Alamofire (4.9.1)
-  - PrivateUtils (1.0.1):
+  - PrivateUtils (1.1.0):
     - Alamofire
 
 DEPENDENCIES:
@@ -17,7 +17,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  PrivateUtils: f55e551597d4751af14bf49bedeb1d49c37cc451
+  PrivateUtils: b01f8c8faa40b678d13c5d88f8c9fbcc76e25ab1
 
 PODFILE CHECKSUM: f9853b4ec704e02f368d851e95e47484a4ae7563
 

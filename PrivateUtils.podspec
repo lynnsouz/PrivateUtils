@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PrivateUtils'
-  s.version          = '1.0.1'
+  s.version          = '1.1.0'
   s.summary          = 'A short description of PrivateUtils.'
 
   s.description      = "Private repo."
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.1'
 
-  s.source_files = 'PrivateUtils/Classes/**/*.{swift,h,m}'
+  s.source_files = 'PrivateUtils/Classes/**/*'
   
   # s.resource_bundles = {
   #   'PrivateUtils' => ['PrivateUtils/Assets/*.png']
