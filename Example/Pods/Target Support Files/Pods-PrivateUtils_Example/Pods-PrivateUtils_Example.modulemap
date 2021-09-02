@@ -1,6 +1,0 @@
-framework module Pods_PrivateUtils_Example {
-  umbrella header "Pods-PrivateUtils_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}
