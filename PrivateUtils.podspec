@@ -8,12 +8,12 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/lynnsouz/PrivateUtils'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Lynneker Souza' => 'LynnekerSouza@me.com' }
-  s.source           = { :git => 'git@github.com:lynnsouz/PodSpecs.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:lynnsouz/PrivateUtils.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/Lynsouz'
 
   s.ios.deployment_target = '10.1'
 
-  s.source_files = './PrivateUtils/Classes/**/*.swift'
+  s.source_files = 'PrivateUtils/Classes/**/*.swift'
   
   # s.resource_bundles = {
   #   'PrivateUtils' => ['PrivateUtils/Assets/*.png']
