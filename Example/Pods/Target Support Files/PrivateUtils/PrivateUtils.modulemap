@@ -1,0 +1,6 @@
+framework module PrivateUtils {
+  umbrella header "PrivateUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}

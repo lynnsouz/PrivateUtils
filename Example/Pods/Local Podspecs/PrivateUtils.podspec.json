@@ -1,0 +1,22 @@
+{
+  "name": "PrivateUtils",
+  "version": "1.1.0",
+  "summary": "A short description of PrivateUtils.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lynnsouz/PrivateUtils",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Lynneker Souza": "LynnekerSouza@me.com"
+  },
+  "source": {
+    "git": "git@github.com:lynnsouz/PrivateUtils.git",
+    "tag": "1.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "PrivateUtils/Classes/**/*"
+}

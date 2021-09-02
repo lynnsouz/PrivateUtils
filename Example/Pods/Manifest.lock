@@ -1,0 +1,16 @@
+PODS:
+  - PrivateUtils (1.1.0)
+
+DEPENDENCIES:
+  - PrivateUtils (from `../`)
+
+EXTERNAL SOURCES:
+  PrivateUtils:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PrivateUtils: e05081e1dd288bc7d1a145fda23813e9010f671f
+
+PODFILE CHECKSUM: ff9dc3034bde943521284bbbc7190debfbf41d17
+
+COCOAPODS: 1.10.1
