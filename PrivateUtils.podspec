@@ -1,17 +1,9 @@
-#
-# Be sure to run `pod lib lint PrivateUtils.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'PrivateUtils'
   s.version          = '1.0.1'
-  s.summary          = 'A short description of PrivateUtils.'
+  s.summary          = 'PrivateUtils is a test for private repo..'
 
-  s.description      = "Private repo."
+  s.description      = "Private testing repo. Working with private pod spec"
 
   s.homepage         = 'https://github.com/lynnsouz/PrivateUtils'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -21,13 +13,12 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.1'
 
-  s.source_files = 'PrivateUtils/Classes/**/*'
+  s.source_files = 'PrivateUtils/**/*.swift'
   
   # s.resource_bundles = {
   #   'PrivateUtils' => ['PrivateUtils/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
   s.dependency 'Alamofire'
 end

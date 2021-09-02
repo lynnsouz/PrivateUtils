@@ -1,8 +1,8 @@
 {
   "name": "PrivateUtils",
   "version": "1.0.1",
-  "summary": "A short description of PrivateUtils.",
-  "description": "Private repo.",
+  "summary": "PrivateUtils is a test for private repo..",
+  "description": "Private testing repo. Working with private pod spec",
   "homepage": "https://github.com/lynnsouz/PrivateUtils",
   "license": {
     "type": "MIT",
@@ -18,7 +18,7 @@
   "platforms": {
     "ios": "10.1"
   },
-  "source_files": "PrivateUtils/Classes/**/*",
+  "source_files": "PrivateUtils/**/*.swift",
   "frameworks": "UIKit",
   "dependencies": {
     "Alamofire": [
